@@ -1,6 +1,6 @@
 {
   "name": "stackpulse-sdk",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Official JavaScript SDK for StackPulse V3 contracts on Stacks",
   "type": "module",
   "main": "dist/index.cjs",
@@ -40,12 +40,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AdekunleBamz/StackPulse.git"
+    "url": "git+https://github.com/AK-Bit-Lab/stackpulse-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/AdekunleBamz/StackPulse/issues"
+    "url": "https://github.com/AK-Bit-Lab/stackpulse-sdk/issues"
   },
-  "homepage": "https://github.com/AdekunleBamz/StackPulse#readme",
+  "homepage": "https://github.com/AK-Bit-Lab/stackpulse-sdk#readme",
   "publishConfig": {
     "access": "public"
   },
@@ -54,7 +54,10 @@
   },
   "dependencies": {
     "@stacks/network": "^7.3.1",
-    "@stacks/transactions": "^7.3.1"
+    "@stacks/transactions": "^7.3.1",
+    "stackpulse-protocol": "^0.1.3",
+    "stackpulse-utils": "^0.1.3",
+    "stackpulse-types": "^0.1.3"
   },
   "devDependencies": {
     "rimraf": "^6.1.0",
